@@ -1,0 +1,94 @@
+.secaoHeroi {
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    background-image: url('../../assets/home/image-homepage-hero.jpg');
+    background-size: cover;
+    width: 1110px;
+    height: 600px;
+    margin-bottom: 150px;
+    display: flex;
+    align-items: flex-end;
+}
+
+.caixa {
+    background-color: white;
+    width: 445px;
+    height: 357px;
+}
+
+.paragrafoHeroi {
+    color: #33323D;
+    font-size: 50px;
+    letter-spacing: -0.45px;
+    line-height: 50px;
+    margin: 40px 27px 50px 27px;
+
+}
+
+.caixaBotao {
+    width: 200px;
+    height: 48px;
+    display: flex;
+    cursor: pointer;
+}
+
+.caixaIcone {
+    background: #0c2a3f;
+    width: 48px;
+    height: 48px;
+}
+
+.caixaFrase {
+    background: #203A4C;
+    color: white;
+    height: 48px;
+    width: 152px;
+    font-size: 12px;
+    letter-spacing: 2px;
+}
+
+.caixaFrase a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.secaoSobre {
+    display: flex;
+    justify-content: center;
+}
+
+.card2 {
+    width: 1110px;
+    height: 600px;
+    margin-bottom: 60px;
+    margin-left: 60px;
+    display: flex;
+}
+
+.foto img {
+    width: 540px;
+    height: 600px;
+}
+
+.textoSobre {
+    border-top: 1px solid rgba(51, 50, 61, 0.15);
+    border-bottom: 1px solid rgba(51, 50, 61, 0.15);
+    margin-left: 140px;
+    padding-top: 50px;
+}
+
+.paragrafo {
+    margin-bottom: 24px;
+}
+
+
+.areaLink {
+    text-align: center;
+}
+
+.areaLink a {
+    display: inline-block;
+}

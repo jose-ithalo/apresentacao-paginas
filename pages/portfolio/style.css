@@ -1,0 +1,52 @@
+.secaoGerir,
+.secaoMarcaPaginas,
+.secaoGarantir {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 80px;
+}
+
+.secaoGerir {
+    margin-left: 80px;
+}
+
+.card img {
+    width: 540px;
+    height: 500px;
+    margin-left: 60px;
+}
+
+.caixaTexto {
+    border-top: 1px solid rgba(51, 50, 61, 0.15);
+    border-bottom: 1px solid rgba(51, 50, 61, 0.15);
+    margin-left: 140px;
+    padding-top: 90px;
+}
+
+.caixaSubtexto {
+    padding-bottom: 130px;
+}
+
+
+p {
+    margin-bottom: 54px;
+    margin-right: 100px;
+}
+
+.secaoGarantir {
+    margin-left: 130px;
+}
+
+.caixaTexto2 {
+    margin-left: 130px;
+
+}
+
+.secaoFylo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 60px;
+    margin-right: 50px;
+}

@@ -1,0 +1,146 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.alinhar-centro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.principal {
+    background: #FAFAFA;
+    min-height: 100vh;
+
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    padding: 64px 120px;
+}
+
+.cabecalho li {
+    font-size: 12px;
+    letter-spacing: 2px;
+    list-style: none;
+    margin-left: 42px;
+
+}
+
+ul {
+    display: flex;
+
+}
+
+.flex-coluna {
+    display: flex;
+    flex-direction: column;
+}
+
+.fonte-ibarra-real-nova {
+    font-family: 'Ibarra Real Nova', serif;
+}
+
+.fonte-public-san {
+    font-family: 'Public Sans', sans-serif;
+}
+
+
+h1 {
+    color: #33323D;
+    font-size: 40px;
+    margin-bottom: 28px;
+}
+
+.paragrafo {
+    color: #33323D;
+    line-height: 30px;
+    opacity: 0.8;
+}
+
+
+.selecionado a {
+    text-decoration: none;
+    color: #5FB4A2;
+    cursor: default;
+}
+
+.naoSelecionados a {
+    text-decoration: none;
+    color: #33323D;
+    cursor: pointer;
+
+}
+
+
+.linkPortifolio {
+    border: 1px solid #33323D;
+    color: #33323D;
+    font-family: 'Public Sans', sans-serif;
+    font-size: 12px;
+    letter-spacing: 2px;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 17px 28px;
+
+}
+
+.linkMenor {
+    padding: 17px 50px;
+}
+
+.linkPadrao {
+    padding: 17px 38px;
+}
+
+.areaContato {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.secaoContato {
+    padding: 100px;
+    margin-left: 40px;
+}
+
+.rodape {
+    background: #33323D;
+    width: 100%;
+    height: 80px;
+    padding: 0px 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+
+.inicio {
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.rodape li {
+    color: #ffff;
+    font-size: 12px;
+    letter-spacing: 2px;
+    list-style: none;
+    margin-right: 42px;
+}
+
+.rodape a {
+    color: white;
+}
+
+.final img {
+    margin-left: 16px;
+}

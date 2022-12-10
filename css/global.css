@@ -10,12 +10,11 @@
     align-items: center;
 }
 
-
-
-.principal {
-    background: #FAFAFA;
-    min-height: 100vh;
-
+.areaContato {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .cabecalho {
@@ -32,9 +31,8 @@
 
 }
 
-ul {
-    display: flex;
-
+.final img {
+    margin-left: 16px;
 }
 
 .flex-coluna {
@@ -50,33 +48,26 @@ ul {
     font-family: 'Public Sans', sans-serif;
 }
 
-
 h1 {
     color: #33323D;
     font-size: 40px;
     margin-bottom: 28px;
 }
 
-.paragrafo {
-    color: #33323D;
-    line-height: 30px;
-    opacity: 0.8;
+.inicio {
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
-
-.selecionado a {
-    text-decoration: none;
-    color: #5FB4A2;
-    cursor: default;
+.linkMenor {
+    padding: 17px 50px;
 }
 
-.naoSelecionados a {
-    text-decoration: none;
-    color: #33323D;
-    cursor: pointer;
-
+.linkPadrao {
+    padding: 17px 38px;
 }
-
 
 .linkPortifolio {
     border: 1px solid #33323D;
@@ -90,24 +81,24 @@ h1 {
 
 }
 
-.linkMenor {
-    padding: 17px 50px;
+.naoSelecionados a {
+    text-decoration: none;
+    color: #33323D;
+    cursor: pointer;
+
 }
 
-.linkPadrao {
-    padding: 17px 38px;
+.paragrafo {
+    color: #33323D;
+    line-height: 30px;
+    opacity: 0.8;
 }
 
-.areaContato {
-    margin-bottom: 20px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
 
-.secaoContato {
-    padding: 100px;
-    margin-left: 40px;
+.principal {
+    background: #FAFAFA;
+    min-height: 100vh;
+
 }
 
 .rodape {
@@ -118,15 +109,10 @@ h1 {
     display: flex;
     justify-content: space-between;
     align-items: center;
-
-
 }
 
-.inicio {
-    width: 50%;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
+.rodape a {
+    color: white;
 }
 
 .rodape li {
@@ -137,10 +123,18 @@ h1 {
     margin-right: 42px;
 }
 
-.rodape a {
-    color: white;
+.selecionado a {
+    text-decoration: none;
+    color: #5FB4A2;
+    cursor: default;
 }
 
-.final img {
-    margin-left: 16px;
+.secaoContato {
+    padding: 100px;
+    margin-left: 40px;
+}
+
+ul {
+    display: flex;
+
 }

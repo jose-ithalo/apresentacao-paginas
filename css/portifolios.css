@@ -1,0 +1,57 @@
+.bloco {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.campoProjeto {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.infoTec {
+    color: #5FB4A2;
+    font-size: 16px;
+    font-weight: 700;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-bottom: 30px;
+    margin-top: 50px;
+}
+
+.subBloco {
+    border-top: 3px solid rgba(51, 50, 61, 0.15);
+    border-bottom: 1px solid rgba(51, 50, 61, 0.15);
+    margin-top: 100px;
+    padding-top: 40px;
+    width: 400px;
+}
+
+.subBloco2 {
+    margin-top: 100px;
+    width: 610px;
+}
+
+.subBloco2 h2 {
+    color: rgba(51, 50, 61, 1);
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.subBloco button {
+    color: #33323D;
+    letter-spacing: 2px;
+    padding: 17px 60px;
+}
+
+.tituloGrafico {
+    font-size: 32px;
+    letter-spacing: -0.29px;
+    margin-top: 60px;
+}
+
+.topCard img {
+    width: 1110px;
+}

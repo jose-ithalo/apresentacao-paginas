@@ -1,13 +1,27 @@
+.areaNav {
+    border-top: 3px solid rgba(51, 50, 61, 0.15);
+    border-bottom: 3px solid rgba(51, 50, 61, 0.15);
+    display: flex;
+    justify-content: space-between;
+    margin: 60px 0px 115px 0px;
+    padding: 30px 0px;
+    width: 80%;
+}
+
+.bordaInferior {
+    border-bottom: 2px solid rgba(51, 50, 61, 0.15);
+    margin-top: 45px;
+}
+
 .bloco {
     width: 80%;
     display: flex;
     justify-content: space-between;
 }
 
-.campoProjeto {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
+.finalCards img {
+    width: 635px;
+    margin-bottom: 30px;
 }
 
 .infoTec {
@@ -21,12 +35,43 @@
     margin-top: 50px;
 }
 
+.setaNav:hover {
+    cursor: pointer;
+    transform: scale(1.2);
+}
+
+.subArea {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.subArea h2 {
+    color: #33323D;
+    font-family: 'Ibarra Real Nova', serif;
+    font-size: 32px;
+    font-weight: 400;
+}
+
+.subArea span {
+    color: #33323D;
+    font-family: 'Public Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    opacity: 0.5;
+}
+
 .subBloco {
     border-top: 3px solid rgba(51, 50, 61, 0.15);
-    border-bottom: 1px solid rgba(51, 50, 61, 0.15);
     margin-top: 100px;
     padding-top: 40px;
     width: 400px;
+}
+
+.subBloco button {
+    color: #33323D;
+    letter-spacing: 2px;
+    padding: 17px 60px;
 }
 
 .subBloco2 {
@@ -38,12 +83,6 @@
     color: rgba(51, 50, 61, 1);
     font-weight: 400;
     margin-bottom: 20px;
-}
-
-.subBloco button {
-    color: #33323D;
-    letter-spacing: 2px;
-    padding: 17px 60px;
 }
 
 .tituloGrafico {

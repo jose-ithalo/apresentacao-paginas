@@ -13,8 +13,9 @@
 .areaContato {
     margin-bottom: 20px;
     display: flex;
-    justify-content: space-between;
     align-items: center;
+    justify-content: space-between;
+    width: 80%;
 }
 
 .cabecalho {
@@ -29,6 +30,12 @@
     list-style: none;
     margin-left: 42px;
 
+}
+
+.campoProjeto {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
 
 .final img {
@@ -103,12 +110,13 @@ h1 {
 
 .rodape {
     background: #33323D;
-    width: 100%;
-    height: 80px;
-    padding: 0px 120px;
     display: flex;
-    justify-content: space-between;
     align-items: center;
+    justify-content: space-between;
+    padding: 0px 120px;
+    margin-top: 100px;
+    height: 80px;
+    width: 100%;
 }
 
 .rodape a {
@@ -127,11 +135,6 @@ h1 {
     text-decoration: none;
     color: #5FB4A2;
     cursor: default;
-}
-
-.secaoContato {
-    padding: 100px;
-    margin-left: 40px;
 }
 
 ul {

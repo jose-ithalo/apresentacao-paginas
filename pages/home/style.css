@@ -13,6 +13,14 @@
     align-items: flex-end;
 }
 
+.card2 {
+    width: 1110px;
+    height: 600px;
+    margin-bottom: 120px;
+    margin-left: 60px;
+    display: flex;
+}
+
 .caixa {
     background-color: white;
     width: 445px;
@@ -58,14 +66,6 @@
 .secaoSobre {
     display: flex;
     justify-content: center;
-}
-
-.card2 {
-    width: 1110px;
-    height: 600px;
-    margin-bottom: 60px;
-    margin-left: 60px;
-    display: flex;
 }
 
 .foto img {
